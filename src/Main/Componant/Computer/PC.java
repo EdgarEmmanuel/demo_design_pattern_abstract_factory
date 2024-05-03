@@ -1,8 +1,10 @@
-package Main.Componant;
+package Main.Componant.Computer;
 
-public class Server extends Computer {
+import Main.Componant.Computer.Computer;
+
+public class PC extends Computer {
     String  RAM,HDD,CPU;
-    public Server(String RAM, String HDD, String CPU){
+    public PC(String RAM, String HDD, String CPU){
         this.CPU = CPU;
         this.RAM = RAM;
         this.HDD = HDD;

@@ -1,7 +1,7 @@
-package Main.Factory;
+package Main.Factory.ComputerFactory;
 
-import Main.Componant.Computer;
-import Main.Componant.Server;
+import Main.Componant.Computer.Computer;
+import Main.Componant.Computer.Server;
 
 public class ServerFactory implements ComputerAbstractFactory {
 

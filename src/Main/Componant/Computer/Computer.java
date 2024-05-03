@@ -1,4 +1,4 @@
-package Main.Componant;
+package Main.Componant.Computer;
 
 
 public abstract class Computer {

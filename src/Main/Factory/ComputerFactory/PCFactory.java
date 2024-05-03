@@ -1,7 +1,7 @@
-package Main.Factory;
+package Main.Factory.ComputerFactory;
 
-import Main.Componant.Computer;
-import Main.Componant.PC;
+import Main.Componant.Computer.Computer;
+import Main.Componant.Computer.PC;
 
 public class PCFactory implements ComputerAbstractFactory {
     String  RAM,HDD,CPU;
